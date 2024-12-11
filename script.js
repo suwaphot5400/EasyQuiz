@@ -1,4 +1,4 @@
-var score = 0;
+let score = 0;
 
 function checkAnswer(answer) {
     const result = document.getElementById('result');
