@@ -1,4 +1,4 @@
-let score;
+var score = 0;
 
 function checkAnswer(answer) {
     const result = document.getElementById('result');
@@ -23,7 +23,7 @@ function checkAnswer2(answer) {
         result.textContent = "Incorrect! Try again.";
         result.style.color = 'red';
     }
-    document.getElementById("points").textContent = "คุณได้คะแนนทั้งหมด " + score + " คะแนน";
+    document.getElementById("points").innerHTML = "คุณได้คะแนนทั้งหมด " + score + " คะแนน";
     score = 0;
 } 
 
